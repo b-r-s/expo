@@ -20,7 +20,7 @@ const STYLES_LINK = css`
   justify-content: space-between;
 
   :hover {
-    color: ${theme.link.default};
+    color: ${theme.text.link};
   }
 `;
 
@@ -40,7 +40,7 @@ const STYLES_LINK_CODE = css`
 `;
 
 const STYLES_LINK_ACTIVE = css`
-  color: ${theme.link.default};
+  color: ${theme.text.link};
 `;
 
 const STYLES_TOOLTIP = css`
@@ -48,7 +48,7 @@ const STYLES_TOOLTIP = css`
   border-radius: 3px;
   position: absolute;
   color: ${theme.text.default};
-  background-color: ${theme.background.secondary};
+  background-color: ${theme.background.subtle};
   font-family: ${typography.fontFaces.medium};
   max-width: 400px;
   border: 1px solid ${theme.border.default};
